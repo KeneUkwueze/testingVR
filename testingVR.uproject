@@ -20,21 +20,56 @@
 			"Enabled": true
 		},
 		{
-			"Name": "DatasmithRuntime",
-			"Enabled": true
-		},
-		{
 			"Name": "OpenVRExpansionPlugin",
 			"Enabled": true
 		},
 		{
 			"Name": "VRExpansionPlugin",
 			"Enabled": true
+		},
+		{
+			"Name": "OculusOpenXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemGooglePlay",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemIOS",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"TVOS"
+			]
+		},
+		{
+			"Name": "OnlineSubsystemNull",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": false
+		},
+		{
+			"Name": "OnlineSubsystemOculus",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
 		"PS4",
-		"WindowsNoEditor",
-		"Android"
+		"WindowsNoEditor"
 	]
 }
